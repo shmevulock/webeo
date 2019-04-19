@@ -1,0 +1,744 @@
+/*header*/
+
+.blog{
+    width: 65px;
+}
+.contlogo{
+    width: 300px;
+    height: 100%;
+    
+}
+.logo{
+   width: 130px;
+    height: 130px;
+    background-image: url(../img/logo.png);
+    background-size: 100% 100%;
+
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 8px;
+ 
+}
+.contlogo .underline,.down{
+    width: 380px;
+    text-align: center;
+    display: inline-block;
+     position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #262626;
+    margin-left: 25px;
+ 
+    line-height: 1.3;
+     margin-top: 20px;
+    
+}
+.centermail{
+    width: 100%;
+  
+}
+.mail-call{
+    width: 50%;
+}
+.down{
+   font-size: 16px;
+    margin-top: 80px;
+    width: 370px;
+    margin-left: 25px;
+}
+.underline::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    border-radius:15px;
+    background: #075e54;
+    position: absolute;
+    left:0px;
+    bottom: 0;
+    
+}
+.iconheaders{
+    width:350px;
+    margin-left: 25%;
+    
+}
+
+
+.iconheader{
+    padding: 0px 0px;
+    margin-left: 15%;
+    margin: 0px 30px;
+}
+.iconheader2{
+    padding: 0px;
+    
+}
+.contacheader{
+    color: #075e54;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.iconheader li{
+    background: white;
+    width: 122px;
+    margin: 7px ;
+    border-radius:8px;
+    padding: 5px;
+    display: inline-block;
+   color: #075e54;
+}
+
+.iconheader li a i{
+    margin: 0 5px;
+    color: #00867d;
+}
+.iconheader li:hover{
+    background: #00867d;
+    color: white;
+}
+.iconheader li:hover .adsa{
+
+    color: white;
+}
+.iconheader li:hover .contacheader{
+
+    color: white;
+}
+
+/*-----*/
+
+
+.subrayado{
+       width:0;
+       height:0;
+       margin: 2.5% auto;
+       
+       border-left: 17vw solid transparent;
+       border-right: 17vw solid transparent;
+       border-top: 0.5vw solid white;
+       
+     }
+.texth1,.texth2,.texth3,.texth4,.texth5,.texth6,.texth7,.texth8,.texth9,.texth10,.texth11{
+    text-align: center;
+    color: white;
+    font-family: "Arial";
+}
+     .texth1,.texth8{
+         
+         margin-top:8%;
+         font-size:6vw;
+         -webkit-text-shadow: 0.3vw 0.3vw 0.3vw #000;
+         -moz-text-shadow: 0.3vw 0.3vw 0.3vw #000;
+         text-shadow: 0.3vw 0.3vw 0.3vw #000;
+     }
+/*#swip-cont{
+    width: 50%;
+}*/
+.texth8{font-size: 5vw;}
+.texth2,.texth3,.texth7,.texth9{
+     font-size:2.8vw;
+}
+     .texth2{
+      margin-top:2%;
+       
+     }
+     .texth3,.texth4{
+      margin-top:10%;
+        
+      
+     }
+.texth4{
+    font-size:5vw;
+}
+     .texth4,.texth6,.texth10{
+         
+         -webkit-text-shadow: -0.3vw 0.3vw 0.3vw #000;
+         -moz-text-shadow: -0.3vw 0.3vw 0.3vw #000;
+         text-shadow: -0.3vw 0.3vw 0.3vw #000;
+         
+     }
+     .texth5{
+      margin-top:5%;
+           padding: 20px;
+    margin: 0;
+         font-size:2vw;
+     }
+     .texth6{
+         font-size:10vw;
+          margin-top:12%;
+      }
+.texth7,.texth9{
+    
+    color: #262626;
+    
+    margin-top: 13%;
+      }
+.texth8{
+    margin-top: 0;
+    
+}
+.texth9{
+    margin-top: 19%;
+}
+.texth10{
+    font-size:7vw;
+    margin-top: 3%;
+    line-height:10vw;
+    margin-right: 13%;
+}
+.texth11{
+    text-align: right;
+    margin-top: 8%;
+    font-size: 2vw;
+    
+    width: 35vw;
+   
+}
+
+
+fieldset { 
+  padding-left: 6vw;
+  padding-right: 6vw;
+  border:0.2vw solid #B18F2D;
+    height: 31vw;
+  margin-top: 8%;
+  color:black;
+}
+
+
+     .blockswip{
+         width:23.5vw;
+         height:4vw;
+         background:white;
+         margin:4.5% auto;
+         border-radius:8px;
+         -webkit-box-shadow: 0.3vw 0.3vw 0.3vw #000;
+         -moz-box-shadow: 0.3vw 0.3vw 0.3vw #000;
+         box-shadow: 0.3vw 0.3vw 0.3vw #000;
+     }
+     .blockswip1{
+         width:18.4vw;
+         height:4vw;
+         
+         margin:14% auto;
+        
+         background:#B9A317;
+         position: absolute;
+         border-radius:8px;
+         margin-left: 22.5vw;
+         padding: 5px;
+         
+     }
+      .blockswip2{
+         width:18.4vw;
+         height:4vw;
+         border-radius:8px;
+        position: absolute;
+          color: white;
+         border-radius:8px;
+          border:1.5px solid white;
+           margin:13.3% auto;
+          margin-left: 22.1vw;
+          text-align: center;
+         font-size: 1.5vw;
+          padding: 2%;
+     }
+     .blockswip2:hover{
+         color: white;
+     }
+          
+
+ /*-----UP Css------*/
+           
+           .up{
+               display: none;
+               padding: 20px;
+               background-color: black;
+               font-size: 20px;
+               color: white;
+               cursor: pointer;
+               position: fixed;
+               bottom: 80px;
+               right: 20px;
+               border-radius: 50%;
+               z-index: 5;
+               opacity: .5;
+               box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -ms-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -o-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               
+           }
+           .up:hover{
+                background-color:#00867d;    
+                opacity: 1;
+               transition: 0.5s;
+           }
+           
+           
+           /*----------------*/
+
+ /*-----Whatsapp Css------*/
+           
+           .whatsapps{
+              
+               padding: 13px;
+               background-color: #25d366;
+               font-size: 30px;
+               color: white;
+               cursor: pointer;
+               position: fixed;
+               bottom: 280px;
+               right: 20px;
+               border-radius: 50%;
+               z-index: 20;
+               transition: 1.5s;
+               
+               box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -webkit- box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -moz- box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -ms- box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -o- box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+          
+           }
+
+span.whatsapps:hover{
+     background: #075e54;
+    
+ /*   transition:background-color 1.2s ease-in-out;*/ 
+}
+
+
+.whats{
+              
+               padding: 28px;
+               font-size: 30px;
+               color: white;
+               cursor: pointer;
+               position: fixed;
+               bottom: 280px;
+               right: 20px;
+               border-radius: 50%;
+               z-index:20 ;
+               box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -ms-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+               -o-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+              
+               -webkit-transition:visibility 0.5s;
+     -moz-transition:visibility 0.5s;
+     -ms-transition:visibility 0.5s;
+     -o-transition:visibility 0.5s;
+               
+}
+
+nav.whats:hover div.boxwhat{
+     visibility:visible;
+    -webkit-transition:visibility 0s 1s;
+    -moz-transition:visibility 0s 1s;
+    -ms-transition:visibility 0s 1s;
+    -o-transition:visibility 0s 1s;
+
+    
+}
+
+nav.whats:hover span.movetext{
+  margin-left: 0px;
+   
+}
+
+
+           
+           
+           /*----------------*/
+
+ /*-----Whatsapp 2 Css------*/
+.boxwhat
+        {
+            width: 400px;
+            position: fixed;
+            right: 65px;
+            z-index:10;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
+            bottom: 150px;
+            border-radius: 25px 25px 10px 10px;
+           visibility: hidden;
+           -webkit-transition:visibility 3600s 0s;
+            -moz-transition:visibility 3600s 0s;
+            -ms-transition:visibility 3600s 0s;
+            -o-transition:visibility 3600s 0s;
+           
+            -webkit-user-select:none;
+          -moz-user-select:none;
+          -ms-user-select:none;
+          -o-user-select:none;
+}
+
+            
+        
+.movetext{
+   margin-left:80px;
+   
+    -webkit-transition:margin 0.5s;
+    -moz-transition:margin 0.5s;
+    -ms-transition:margin 0.5s;
+    -o-transition:margin 0.5s;
+  
+}
+#form1{
+  background:#075e54; 
+   padding: 8px;
+     border-radius: 25px 25px 0px 0px;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 10;
+}
+#form1 h4{
+font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 18px;
+ 
+    
+}
+#form1 h4 span{
+    font-size: 18px;
+    font-weight: 100;
+    display:inline-block;
+    line-height:1.2;
+    margin-bottom: 8px;
+    }
+.icon1,.icon2{
+   margin: 0px 20px;
+    padding: 5px 7px;
+    color: gray;
+    background:#ece5dd;
+    border-radius: 50%;
+   
+}
+.icon2{
+    position: absolute;
+   right: 20px;
+    margin: 0 0;
+   padding:14px 15px;
+    background: none;
+    color: white;
+    }
+.icon2:hover{
+    cursor: pointer;
+    background: #262626;
+    opacity: .5;
+}
+
+#form2{
+    background-image:url(../img/fondowhat.png);
+    background-size: 100% auto;
+    height: 250px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.context{
+    width: 100%;
+    height: 100%;
+   
+}
+.context h4
+{
+    width: 280px;
+    background:white;
+    text-align: left;
+    font-size: 15px;
+    left: 60px;
+    margin-top: 50px;
+    text-align: center;
+    position: absolute;
+    border-radius: 15px;
+    padding:5px;
+    
+     
+}
+.messageimg{
+    padding:10px;
+    background-image: url(../img/message.png);
+    background-size: 100% auto;
+    margin-left: 40px;
+    position:absolute;
+    margin-top: 62px;
+    
+}
+.emoji{
+    
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../img/emoji.png);
+    background-size: 100% auto;
+}
+
+
+
+
+
+/*--------------------------*/
+/*-----------SECTION------------*/
+
+
+
+
+
+.page-link{
+        color: #797979;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px 20px;
+    border-color: #e4e4e4;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
+.activli{
+    background: #00867d;
+    color: white;
+}
+
+
+           .navpagi{
+               display: none;
+           }
+           
+           .origisec{
+               display: none;
+           }
+               
+/*INFOIMG.PHP ESTILE*/
+
+
+.texto h1{
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    font-family: News701 BT; 
+}
+.texto h1 span{
+ color:#00867d;
+}
+.parrafo{
+    width: 80%;
+   padding: 15px;
+    font-family: Tahoma cursive;
+    margin:  2rem auto;   
+    text-align: center;
+    font-weight : 900;
+    color: black;
+    font-size: 15px;
+}
+.li{
+    width: 200px;
+    list-style: none;
+    text-align: center;
+    margin: 0rem auto;
+    border-radius: 8px;
+} 
+.li,.a:hover{
+background: #0B614B;
+    color: white;
+    
+}
+.a{
+    
+    background: #00867d;
+    color: white;
+    font-size:18px;
+    padding: 15px;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.secblock{
+    
+}
+.star{
+    width: 30%;
+    margin: 2rem 30%;
+}
+.prodrel{
+    width: 100%;
+    height: 100%;
+    
+    margin-top:80px; 
+}
+
+.textProd{
+    width: 100%;
+   font-family: News701 BT;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.socials{
+    width: 100%;
+    height: 100%;
+    background: #002130;
+}
+
+.redsocials{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+    text-align: center;
+    
+}
+.redsocials li{
+   height: 100%;
+    display: inline-block;
+   
+    
+
+
+}
+.redsocials li a{
+   
+    width: 50px;
+    border-radius: 50%;
+ background: #eee ;
+    padding: 15px;
+    display: inline-block;
+    margin: 6.5px 6.5px;
+   
+}
+/*-----------------------------------*/
+
+
+/*PREGUNTAS FRECUENTES CSS*/
+.boxfec{
+    padding: 8px;
+    
+    
+}
+#conprin,#conprin1,#conprin2,#conprin3,#conprin4{
+    border-radius: 8px 8px 0px 0px;
+    background:#eee;
+    padding:8px;
+    border:0.5px solid #E0DBDB;
+    
+}
+#conprin{
+    box-shadow:inset 0 2px 6px 0 rgba(0, 0, 0, .5);
+}
+#conprin1,#conprin2,#conprin3,#conprin4{
+   
+    background:#00867d; 
+   cursor: pointer;
+    box-shadow:inset 0 2px 6px 0 rgba(0, 0, 0, .5);
+}
+
+#plus{
+    display: none;
+}
+#minus1,#minus2,#minus3,#minus4{
+   display: none;
+}
+.boxfec h4{
+    font-size: 14px;
+   
+}
+#sectionA,.contenidotxt li,#sectionA1,#sectionA2,#sectionA3,#sectionA4{
+    color: #5B615F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+#sectionA1,#sectionA2,#sectionA3,#sectionA4{
+    color: white;
+}
+
+.boxfec .boxtext{
+margin-left: 10px;
+   
+}
+
+#consec,#consec1,#consec2,#consec3,#consec4
+   {
+    background:#eee;
+   
+    border: 0.5px solid #E0DBDB;
+    border-top:none;
+    color: darkgray;
+    box-shadow:  0 2px 6px 0 rgba(0, 0, 0, .5);
+    
+}
+#consec1,#consec2,#consec3,#consec4{
+    display: none;
+}
+.contenidotxt{
+    padding: 8px 40px;
+}
+.contenidotxt li{
+    background: none;
+    font-weight: 500;
+    margin: 15px;
+}
+
+
+
+/*----------HEADER RESPONSIVE--------------*/
+
+/*------------------------*/
+
+@media screen and (max-width: 768px){
+ #divnone{
+     display:none;
+ }
+}
+
+
+
+           
+           @media screen and (max-width: 575px){
+               
+              .origisec{
+               display: flex;
+           }
+               
+               .copisec{
+               display: none;
+           }
+               
+               #secpage20,#secpage10,#secpage11,#secpage12,#secpage21,#secpage22,#secpage26,#secpage27,#secpage28,#secpage29,#secpage33,#secpage34,#secpage35,#secpage36,#secpage37,#secpage38,#secpage100{
+    display: none;
+}
+                 #mostrarsec4,#mostrarsec5,#mostrarsec6,#mostrarsec7{
+            display: none;
+        }
+               .navpagi{
+               display: block;
+           }
+               .page-link{
+   padding: 5px 15px;
+   
+}
+               
+           }
+
+/*RESPONSIVE MOBILIARIOS CSS*/
+
+@media screen and (max-width: 455px){
+    
+    .boxfec h4{
+        font-size-adjust: auto;
+    }
+}
+/*--------------------*/
+            
+           /*___------------------------____*/
+           
+          
+           
+           
+        

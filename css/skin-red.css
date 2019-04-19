@@ -1,0 +1,277 @@
+/* color css #00867d */
+ h1 span{
+     color:#00867d;
+}
+ ul,li {
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+}
+ a, a:hover, a:focus {
+     text-decoration: none;
+     cursor: pointer;
+     outline: none;
+}
+ a.view_more:hover{
+     background: #00867d;
+}
+form .form-group input[type="email"]{
+    background: transparent;
+    border: 1px solid #262626;
+}
+ form .form-group button[type="submit"]{
+     background: #00867d;
+}
+ .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+     background:#00867d;
+}
+ .navbar-nav .nav-item.active a{
+     color:#00867d;
+}
+ .navbar-nav .nav-item.active a.dropdown-toggle::after{
+     color:#00867d;
+}
+ .dropdown-item a:hover{
+     background-color: #00867d;
+     color:#fff;
+}
+ .navbar-toggler-icon {
+     display: block;
+     width:25px;
+     height:2px;
+     vertical-align: middle;
+     background-color: #00867d;
+     margin: 5px 0 
+}
+ section#portfolio .sort-btn.active, section#portfolio .sort-btn:hover{
+     background:#00867d !important;
+}
+ section#testimonials .testimonials-slider .item .client_detail .name_designation h5{
+     color:#00867d;
+}
+ .owl-carousel .owl-nav .owl-next::before {
+     color:#00867d;
+}
+ .owl-carousel .owl-nav .owl-prev::before {
+     color:#00867d;
+}
+ .owl-carousel .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover{
+     background:#00867d !important;
+     border-color:#00867d;
+}
+ .section_heading h2 span{
+     color:#00867d;
+}
+ .separator ul li{
+     background:#00867d;
+}
+ .separator.left-align ul li{
+     background:#00867d;
+}
+ .pagination .page-item.active .page-link, .pagination .page-link:hover{
+     background:#00867d !important;
+     border-color:#00867d;
+}
+ .post-detail .post-status ul li i{
+     color: #00867d;
+}
+ .post-detail .post-status ul li i::before{
+     color: #00867d;
+}
+ .post-detail .description a{
+     color: #00867d;
+}
+ .sidebar .widget .widget-content .post-item .post-content .post-status i::before {
+     color: #00867d;
+}
+ .sidebar .widget .widget-content .tags ul li a:hover{
+     border: solid 1px #00867d;
+     background:#00867d;
+}
+ .chat-id p span{
+     font-size: 30px;
+     color:#00867d;
+}
+ .service-card.item .service_icon i::before{
+     color: #00867d;
+}
+ .service-card.item:hover{
+     border:solid 1px #00867d;
+     background:#00867d !important;
+}
+.item .name_designation a{
+     display: block;
+     color:#00867d;
+     font-weight: 600;
+}
+ .project .label-bg {
+     background: #00867d;
+}
+ .blog_card .post-detail .posted_by a{
+     color:#00867d;
+     font-weight:bold;
+}
+.item.product_card{
+    margin: 10px 0;
+}
+.product_card .product-detail{
+    background: #00867d;
+    
+    border-radius: 5px;
+}
+.product_card .product-detail a{
+     color:#fff;
+     font-weight: 800;
+   
+    
+}
+.product-detail h5{
+      margin-top: 20px;
+     border-radius: 5px;
+    padding: 10px;
+}
+ footer .footer_about_content a{
+     color: #00867d;
+}
+ footer .contact_info i{
+     color:#00867d;
+}
+ footer .newsletter h4{
+     color:#00867d;
+}
+ footer .newsletter form input[type="submit"]{
+     background:#00867d;
+}
+ footer .copyright a:hover{
+     color: #00867d;
+}
+ section#inner-banner .inner-heading .breadcrumb li.breadcrumb-item a {
+     color: #00867d;
+}
+ section#qualities .column .icon i::before{
+     color: #00867d;
+}
+ section#about-detail .section_heading h4 span{
+     color: #00867d;
+}
+ section#portfolio_detail .about_project i::before{
+     font-size: 40px;
+     color:#00867d;
+}
+ section#services-counter .overlay, section#work-status .overlay{
+     width:100%;
+     height: 100%;
+     background: rgba(0, 134, 125, .85);
+     display:block;
+     position:absolute;
+     z-index:0;
+     top:0;
+}
+ .project .zoom{
+     background: rgba(0, 134, 125, .85);
+}
+ .blog_card .post-img .posted_on {
+     background: rgba(0, 134, 125, .85);
+}
+ section#single-post-detail .blog-detail .post-detail .about-post .special-quote{
+     background:#ffece1;
+     border:solid 1px #f0c9b1;
+}
+ section#contact-us .contact-detail .contact-card .icon i::before{
+     color: #00867d;
+}
+ section#contact-us .mid-content .description span{
+     color: #00867d;
+}
+ section#contact-us .info ul li .icon i:before{
+     color:#00867d;
+}
+ section#contact-us .form-header{
+     background:#00867d;
+}
+ section#faq #accordion button.btn-link span{
+     color:#00867d;
+}
+ section#page-not-found .error-content h4 {
+     color:#00867d;
+}
+ section#page-not-found .error-content a{
+     background: #00867d;
+}
+ .separator ul li{
+     background:#00867d;
+}
+ .section_heading h1 span, .section_heading h2 span{
+     color:#00867d;
+}
+ .header-top.contact_info .mail-call i::before {
+    
+     font-size: 16px;
+    
+}
+ section#about-us .qualities .column .icon i::before{
+     color:#00867d;
+}
+ section#counter .counter-column .count_icon i::before{
+     color:#00867d;
+}
+ footer .contact-info ul li .icon i::before{
+     color:#00867d;
+}
+ footer.index-2 .contact-info ul li .detail .content {
+     color:#00867d !important;
+}
+ footer .bottom {
+     background-color:#00867d;
+}
+ section#qualities{
+     background-color:#00867d;
+}
+ section#member .meeting_icon::before{
+     border-color: transparent #00867d;
+}
+ section#member .meeting_icon {
+     background: #00867d;
+}
+ .separator ul li{
+     background:#00867d;
+}
+ .section_heading h1 span, .section_heading h2 span{
+     color:#00867d;
+}
+ section#quick-connect .newsletter{
+     background:url('../img/newsletter-icon.png') no-repeat center center, #00867d;
+}
+ section#quick-connect .quick-info .content .sub-heading{
+     color: #00867d;
+}
+ section#pricing .ultimate .features ul li{
+     border-bottom: solid 1px #ff8d49;
+}
+ .header-top.contact_info {
+     background:#00867d;
+}
+ .slider.index-2 .carousel-indicators li.active{
+     background:#00867d;
+}
+ .slider.index-2 .carousel-caption a.view_more{
+     background-color: #00867d;
+}
+ .slider.index-2 .carousel-caption a.contact_us:hover {
+     background-color: #00867d;
+     color: #fff;
+}
+ section#pricing .ultimate .purchase a.purchase_now, section#pricing .ultimate .purchase a:hover.purchase_now{
+     color: #00867d;
+}
+ header .hamburger-inner, header .hamburger-inner::before, header .hamburger-inner::after {
+     background-color: #00867d;
+}
+ footer.index-2 .content{
+     color: #00867d;
+}
+ footer.index-2 .contact-form form button:hover[type="submit"]{
+     background:#00867d;
+     color:#fff;
+     transition: all 0.5s ease;
+}
